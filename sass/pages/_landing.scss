@@ -1,0 +1,25 @@
+.landing {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__bg {
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-image: url("../img/landing page background.jpg");
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    &__body {
+        max-width: 67%;
+        text-align: center;
+    }
+}

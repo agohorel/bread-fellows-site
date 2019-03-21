@@ -1,3 +1,17 @@
 html {
     font-family: "Work Sans", sans-serif;
 }
+
+.text {
+    &__h1 {
+        font-size: 4rem;
+    }
+
+    &__h2 {
+        font-size: 3rem;
+    }
+
+    &__h3 {
+        font-size: 2rem;
+    }
+}

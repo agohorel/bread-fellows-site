@@ -8,9 +8,80 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth; }
+  @media only screen and (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media only screen and (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media only screen and (max-width: 37.5em) {
+    html {
+      font-size: 43.75%; } }
+  @media only screen and (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
   box-sizing: border-box; }
 
 html {
   font-family: "Work Sans", sans-serif; }
+
+.text__h1 {
+  font-size: 4rem; }
+
+.text__h2 {
+  font-size: 3rem; }
+
+.text__h3 {
+  font-size: 2rem; }
+
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem; }
+  .nav__logo {
+    width: 8rem;
+    height: auto; }
+  .nav__links {
+    list-style-type: none;
+    display: flex; }
+  .nav__item {
+    margin-right: 1.8rem; }
+    .nav__item:last-child {
+      margin-right: 3rem; }
+  .nav__link, .nav__link:visited {
+    font-family: "Open Sans Condensed";
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: -1px;
+    text-decoration: none;
+    color: #383523; }
+    .nav__link:hover, .nav__link:visited:hover {
+      cursor: pointer; }
+
+.landing {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .landing__bg {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/landing page background.jpg");
+    background-size: cover;
+    overflow: hidden; }
+  .landing__body {
+    max-width: 67%;
+    text-align: center; }
