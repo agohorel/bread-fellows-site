@@ -11,6 +11,11 @@
     &__logo {
         width: 8rem;
         height: auto;
+        transition: .2s linear all;
+
+        &:hover {
+            animation: pulsate 1s linear infinite;
+        }
     }
 
     &__links {
@@ -34,9 +39,11 @@
         letter-spacing: -1px;
         text-decoration: none;
         color: $color-nearblack;
+        transition: .2s linear all;
 
         &:hover {
             cursor: pointer;
+            color: $color-secondary;
         }
     }
 }
