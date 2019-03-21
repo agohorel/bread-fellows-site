@@ -36,6 +36,10 @@ html {
 .text__h3 {
   font-size: 2rem; }
 
+::selection {
+  background: #f7d208;
+  color: #997a61; }
+
 .nav {
   position: absolute;
   top: 0;

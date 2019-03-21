@@ -15,3 +15,8 @@ html {
         font-size: 2rem;
     }
 }
+
+::selection {
+	background: $color-primary;
+	color: $color-secondary;
+}
